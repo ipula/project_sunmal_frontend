@@ -1,142 +1,250 @@
 <div [@routerTransition]>
-    <!-- <h2 class="text-muted">Dashboard <small>Statistics Overview</small></h2> -->
-    <!-- <div class="row">
-        <div class="col-md-12">
-            <ngb-carousel>
-                <ng-template ngbSlide *ngFor="let slider of sliders">
-                    <img class="img-fluid mx-auto d-block" [src]="slider.imagePath" alt="Random first slide" width="100%">
-                    <div class="carousel-caption">
-                        <h3>{{slider.label}}</h3>
-                        <p>{{slider.text}}</p>
-                    </div>
-                </ng-template>
-            </ngb-carousel>
+    <div class="row">
+        <div class="col-xl-3 col-lg-6">
+            <mat-card class="example-card">
+                <mat-card-header>
+                          <div mat-card-avatar class="example-header-image"></div>
+                          <mat-card-title>Sunmal Enterpise</mat-card-title>
+                          <!-- <mat-card-subtitle>Dog Breed</mat-card-subtitle> -->
+                        </mat-card-header>
+                <!-- <img mat-card-image src="https://material.angular.io/assets/img/examples/shiba2.jpg" alt="Photo of a Shiba Inu"> -->
+                <!-- <ngb-carousel>
+                    <ng-template ngbSlide *ngFor="let slider of sliders">
+                        <img class="img-fluid mx-auto d-block" [src]="slider.imagePath" alt="Random first slide" width="100%">
+                        <div class="carousel-caption">
+                            <h3>{{slider.label}}</h3>
+                            <p>{{slider.text}}</p>
+                        </div>
+                    </ng-template>
+                </ngb-carousel> -->
+                <!-- <ngb-carousel>
+                    <ng-template ngbSlide *ngFor="let slider of sliders">
+                        <img mat-card-image class="img-fluid mx-auto d-block" [src]="slider.imagePath" alt="Random first slide" width="100%"  height="100%">
+                        <div class="carousel-caption">
+                            <h3>{{slider.label}}</h3>
+                            <p>{{slider.text}}</p>
+                        </div>
+                    </ng-template>
+                </ngb-carousel> -->
+                <mat-card-content>
+                    <p>
+                        The Shiba Inu is the smallest of the six original and distinct spitz breeds of dog from Japan.
+                        A small, agile dog that copes very well with mountainous terrain, the Shiba Inu was originally
+                        bred for hunting.
+                    </p>
+                </mat-card-content>
+                <mat-card-actions>
+                    <!-- <button mat-button>LIKE</button>
+                    <button mat-button>SHARE</button> -->
+                </mat-card-actions>
+            </mat-card>
         </div>
-    </div>
-    <hr> -->
+        <div class="col-xl-9 col-lg-6">
+            <div class="row">
+                <div class="col-xl-4 col-lg-6">
+                    <mat-card class="example-card">
+                        <!-- <mat-card-header>
+                              <div mat-card-avatar class="example-header-image"></div>
+                              <mat-card-title>Shiba Inu</mat-card-title>
+                              <mat-card-subtitle>Dog Breed</mat-card-subtitle>
+                            </mat-card-header> -->
+                        <!-- <img mat-card-image src="https://material.angular.io/assets/img/examples/shiba2.jpg" alt="Photo of a Shiba Inu"> -->
+                        <ngb-carousel>
+                            <ng-template ngbSlide *ngFor="let slider of sliders">
+                                <img class="img-fluid mx-auto d-block" [src]="slider.imagePath" alt="Random first slide"
+                                    width="100%"  style=" height:300px;">
+                                <div class="carousel-caption">
+                                    <h3>{{slider.label}}</h3>
+                                    <p>{{slider.text}}</p>
+                                </div>
+                            </ng-template>
+                        </ngb-carousel>
+                        <!-- <ngb-carousel>
+                        <ng-template ngbSlide *ngFor="let slider of sliders">
+                            <img mat-card-image class="img-fluid mx-auto d-block" [src]="slider.imagePath" alt="Random first slide" width="100%"  height="100%">
+                            <div class="carousel-caption">
+                                <h3>{{slider.label}}</h3>
+                                <p>{{slider.text}}</p>
+                            </div>
+                        </ng-template>
+                    </ngb-carousel> -->
+                        <!-- <mat-card-content>
+                            <p>
+                                The Shiba Inu is the smallest of the six original and distinct spitz breeds of dog from
+                                Japan.
+                                A small, agile dog that copes very well with mountainous terrain, the Shiba Inu was
+                                originally
+                                bred for hunting.
+                            </p>
+                        </mat-card-content> -->
+                        <!-- <mat-card-actions> -->
+                            <!-- <button mat-button>LIKE</button>
+                        <button mat-button>SHARE</button> -->
+                        <!-- </mat-card-actions> -->
+                    </mat-card>
+                </div>
+                <div class="col-xl-4 col-lg-6">
+                    <mat-card class="example-card">
+                        <!-- <mat-card-header>
+                              <div mat-card-avatar class="example-header-image"></div>
+                              <mat-card-title>Shiba Inu</mat-card-title>
+                              <mat-card-subtitle>Dog Breed</mat-card-subtitle>
+                            </mat-card-header> -->
+                        <img mat-card-image src="https://material.angular.io/assets/img/examples/shiba2.jpg" alt="Photo of a Shiba Inu">
+                        <!-- <ngb-carousel>
+                        <ng-template ngbSlide *ngFor="let slider of sliders">
+                            <img mat-card-image class="img-fluid mx-auto d-block" [src]="slider.imagePath" alt="Random first slide" width="100%"  height="100%">
+                            <div class="carousel-caption">
+                                <h3>{{slider.label}}</h3>
+                                <p>{{slider.text}}</p>
+                            </div>
+                        </ng-template>
+                    </ngb-carousel> -->
+                        <mat-card-content>
+                            <p>
+                                The Shiba Inu is the smallest of the six original and distinct spitz breeds of dog from
+                                Japan.
 
-    <div class="row">
-        <div class="col-xl-3 col-lg-6">
-            <mat-card class="example-card">
-                <!-- <mat-card-header>
-                          <div mat-card-avatar class="example-header-image"></div>
-                          <mat-card-title>Shiba Inu</mat-card-title>
-                          <mat-card-subtitle>Dog Breed</mat-card-subtitle>
-                        </mat-card-header> -->
-                <img mat-card-image src="https://material.angular.io/assets/img/examples/shiba2.jpg" alt="Photo of a Shiba Inu">
-                <!-- <ngb-carousel>
-                    <ng-template ngbSlide *ngFor="let slider of sliders">
-                        <img mat-card-image class="img-fluid mx-auto d-block" [src]="slider.imagePath" alt="Random first slide" width="100%"  height="100%">
-                        <div class="carousel-caption">
-                            <h3>{{slider.label}}</h3>
-                            <p>{{slider.text}}</p>
+                            </p>
+                        </mat-card-content>
+                        <mat-card-actions>
+                            <!-- <button mat-button>LIKE</button>
+                        <button mat-button>SHARE</button> -->
+                        </mat-card-actions>
+                    </mat-card>
+                </div>
+                <div class="col-xl-4 col-lg-6">
+                    <mat-card class="example-card">
+                        <!-- <mat-card-header>
+                              <div mat-card-avatar class="example-header-image"></div>
+                              <mat-card-title>Shiba Inu</mat-card-title>
+                              <mat-card-subtitle>Dog Breed</mat-card-subtitle>
+                            </mat-card-header> -->
+                        <img mat-card-image src="https://material.angular.io/assets/img/examples/shiba2.jpg" alt="Photo of a Shiba Inu">
+                        <!-- <ngb-carousel>
+                        <ng-template ngbSlide *ngFor="let slider of sliders">
+                            <img mat-card-image class="img-fluid mx-auto d-block" [src]="slider.imagePath" alt="Random first slide" width="100%"  height="100%">
+                            <div class="carousel-caption">
+                                <h3>{{slider.label}}</h3>
+                                <p>{{slider.text}}</p>
+                            </div>
+                        </ng-template>
+                    </ngb-carousel> -->
+                        <mat-card-content>
+                            <p>
+                                The Shiba Inu is the smallest of the six original and distinct spitz breeds of dog from
+                                Japan.
+
+                            </p>
+                        </mat-card-content>
+                        <mat-card-actions>
+                            <!-- <button mat-button>LIKE</button>
+                        <button mat-button>SHARE</button> -->
+                        </mat-card-actions>
+                    </mat-card>
+                </div>
+                <div class="col-xl-4 col-lg-6">
+                        <mat-card class="example-card">
+                            <!-- <mat-card-header>
+                                  <div mat-card-avatar class="example-header-image"></div>
+                                  <mat-card-title>Shiba Inu</mat-card-title>
+                                  <mat-card-subtitle>Dog Breed</mat-card-subtitle>
+                                </mat-card-header> -->
+                            <img mat-card-image src="https://material.angular.io/assets/img/examples/shiba2.jpg" alt="Photo of a Shiba Inu">
+                            <!-- <ngb-carousel>
+                            <ng-template ngbSlide *ngFor="let slider of sliders">
+                                <img mat-card-image class="img-fluid mx-auto d-block" [src]="slider.imagePath" alt="Random first slide" width="100%"  height="100%">
+                                <div class="carousel-caption">
+                                    <h3>{{slider.label}}</h3>
+                                    <p>{{slider.text}}</p>
+                                </div>
+                            </ng-template>
+                        </ngb-carousel> -->
+                            <mat-card-content>
+                                <p>
+                                    The Shiba Inu is the smallest of the six original and distinct spitz breeds of dog from
+                                    Japan.
+                                    A small, agile dog that copes very well with mountainous terrain, the Shiba Inu was
+                                    originally
+                                    bred for hunting.
+                                </p>
+                            </mat-card-content>
+                            <mat-card-actions>
+                                <!-- <button mat-button>LIKE</button>
+                            <button mat-button>SHARE</button> -->
+                            </mat-card-actions>
+                        </mat-card>
+                    </div>
+                    <div class="col-xl-4 col-lg-6">
+                            <mat-card class="example-card">
+                                <!-- <mat-card-header>
+                                      <div mat-card-avatar class="example-header-image"></div>
+                                      <mat-card-title>Shiba Inu</mat-card-title>
+                                      <mat-card-subtitle>Dog Breed</mat-card-subtitle>
+                                    </mat-card-header> -->
+                                <img mat-card-image src="https://material.angular.io/assets/img/examples/shiba2.jpg" alt="Photo of a Shiba Inu">
+                                <!-- <ngb-carousel>
+                                <ng-template ngbSlide *ngFor="let slider of sliders">
+                                    <img mat-card-image class="img-fluid mx-auto d-block" [src]="slider.imagePath" alt="Random first slide" width="100%"  height="100%">
+                                    <div class="carousel-caption">
+                                        <h3>{{slider.label}}</h3>
+                                        <p>{{slider.text}}</p>
+                                    </div>
+                                </ng-template>
+                            </ngb-carousel> -->
+                                <mat-card-content>
+                                    <p>
+                                        The Shiba Inu is the smallest of the six original and distinct spitz breeds of dog from
+                                        Japan.
+                                        A small, agile dog that copes very well with mountainous terrain, the Shiba Inu was
+                                        originally
+                                        bred for hunting.
+                                    </p>
+                                </mat-card-content>
+                                <mat-card-actions>
+                                    <!-- <button mat-button>LIKE</button>
+                                <button mat-button>SHARE</button> -->
+                                </mat-card-actions>
+                            </mat-card>
                         </div>
-                    </ng-template>
-                </ngb-carousel> -->
-                <mat-card-content>
-                    <p>
-                        The Shiba Inu is the smallest of the six original and distinct spitz breeds of dog from Japan.
-                        A small, agile dog that copes very well with mountainous terrain, the Shiba Inu was originally
-                        bred for hunting.
-                    </p>
-                </mat-card-content>
-                <mat-card-actions>
-                    <button mat-button>LIKE</button>
-                    <button mat-button>SHARE</button>
-                </mat-card-actions>
-            </mat-card>
+                        <div class="col-xl-4 col-lg-6">
+                                <mat-card class="example-card">
+                                    <!-- <mat-card-header>
+                                          <div mat-card-avatar class="example-header-image"></div>
+                                          <mat-card-title>Shiba Inu</mat-card-title>
+                                          <mat-card-subtitle>Dog Breed</mat-card-subtitle>
+                                        </mat-card-header> -->
+                                    <img mat-card-image src="https://material.angular.io/assets/img/examples/shiba2.jpg" alt="Photo of a Shiba Inu">
+                                    <!-- <ngb-carousel>
+                                    <ng-template ngbSlide *ngFor="let slider of sliders">
+                                        <img mat-card-image class="img-fluid mx-auto d-block" [src]="slider.imagePath" alt="Random first slide" width="100%"  height="100%">
+                                        <div class="carousel-caption">
+                                            <h3>{{slider.label}}</h3>
+                                            <p>{{slider.text}}</p>
+                                        </div>
+                                    </ng-template>
+                                </ngb-carousel> -->
+                                    <mat-card-content>
+                                        <p>
+                                            The Shiba Inu is the smallest of the six original and distinct spitz breeds of dog from
+                                            Japan.
+                                            A small, agile dog that copes very well with mountainous terrain, the Shiba Inu was
+                                            originally
+                                            bred for hunting.
+                                        </p>
+                                    </mat-card-content>
+                                    <mat-card-actions>
+                                        <!-- <button mat-button>LIKE</button>
+                                    <button mat-button>SHARE</button> -->
+                                    </mat-card-actions>
+                                </mat-card>
+                            </div>
+
+            </div>
         </div>
-        <div class="col-xl-3 col-lg-6">
-            <mat-card class="example-card">
-                <!-- <mat-card-header>
-                                  <div mat-card-avatar class="example-header-image"></div>
-                                  <mat-card-title>Shiba Inu</mat-card-title>
-                                  <mat-card-subtitle>Dog Breed</mat-card-subtitle>
-                                </mat-card-header> -->
-                <img mat-card-image src="https://material.angular.io/assets/img/examples/shiba2.jpg" alt="Photo of a Shiba Inu">
-                <!-- <ngb-carousel>
-                            <ng-template ngbSlide *ngFor="let slider of sliders">
-                                <img mat-card-image class="img-fluid mx-auto d-block" [src]="slider.imagePath" alt="Random first slide" width="100%"  height="100%">
-                                <div class="carousel-caption">
-                                    <h3>{{slider.label}}</h3>
-                                    <p>{{slider.text}}</p>
-                                </div>
-                            </ng-template>
-                        </ngb-carousel> -->
-                <mat-card-content>
-                    <p>
-                        The Shiba Inu is the smallest of the six original and distinct spitz breeds of dog from Japan.
-                        A small, agile dog that copes very well with mountainous terrain, the Shiba Inu was originally
-                        bred for hunting.
-                    </p>
-                </mat-card-content>
-                <mat-card-actions>
-                    <button mat-button>LIKE</button>
-                    <button mat-button>SHARE</button>
-                </mat-card-actions>
-            </mat-card>
-        </div>
-        <div class="col-xl-3 col-lg-6">
-            <mat-card class="example-card">
-                <!-- <mat-card-header>
-                                  <div mat-card-avatar class="example-header-image"></div>
-                                  <mat-card-title>Shiba Inu</mat-card-title>
-                                  <mat-card-subtitle>Dog Breed</mat-card-subtitle>
-                                </mat-card-header> -->
-                <img mat-card-image src="https://material.angular.io/assets/img/examples/shiba2.jpg" alt="Photo of a Shiba Inu">
-                <!-- <ngb-carousel>
-                            <ng-template ngbSlide *ngFor="let slider of sliders">
-                                <img mat-card-image class="img-fluid mx-auto d-block" [src]="slider.imagePath" alt="Random first slide" width="100%"  height="100%">
-                                <div class="carousel-caption">
-                                    <h3>{{slider.label}}</h3>
-                                    <p>{{slider.text}}</p>
-                                </div>
-                            </ng-template>
-                        </ngb-carousel> -->
-                <mat-card-content>
-                    <p>
-                        The Shiba Inu is the smallest of the six original and distinct spitz breeds of dog from Japan.
-                        A small, agile dog that copes very well with mountainous terrain, the Shiba Inu was originally
-                        bred for hunting.
-                    </p>
-                </mat-card-content>
-                <mat-card-actions>
-                    <button mat-button>LIKE</button>
-                    <button mat-button>SHARE</button>
-                </mat-card-actions>
-            </mat-card>
-        </div>
-        <div class="col-xl-3 col-lg-6">
-            <mat-card class="example-card">
-                <!-- <mat-card-header>
-                                  <div mat-card-avatar class="example-header-image"></div>
-                                  <mat-card-title>Shiba Inu</mat-card-title>
-                                  <mat-card-subtitle>Dog Breed</mat-card-subtitle>
-                                </mat-card-header> -->
-                <img mat-card-image src="https://material.angular.io/assets/img/examples/shiba2.jpg" alt="Photo of a Shiba Inu">
-                <!-- <ngb-carousel>
-                            <ng-template ngbSlide *ngFor="let slider of sliders">
-                                <img mat-card-image class="img-fluid mx-auto d-block" [src]="slider.imagePath" alt="Random first slide" width="100%"  height="100%">
-                                <div class="carousel-caption">
-                                    <h3>{{slider.label}}</h3>
-                                    <p>{{slider.text}}</p>
-                                </div>
-                            </ng-template>
-                        </ngb-carousel> -->
-                <mat-card-content>
-                    <p>
-                        The Shiba Inu is the smallest of the six original and distinct spitz breeds of dog from Japan.
-                        A small, agile dog that copes very well with mountainous terrain, the Shiba Inu was originally
-                        bred for hunting.
-                    </p>
-                </mat-card-content>
-                <mat-card-actions>
-                    <button mat-button>LIKE</button>
-                    <button mat-button>SHARE</button>
-                </mat-card-actions>
-            </mat-card>
-        </div>
+
     </div>
+    <br>
     <div class="row">
         <div class="col-xl-3 col-lg-6">
             <mat-card class="example-card">
@@ -163,8 +271,8 @@
                     </p>
                 </mat-card-content>
                 <mat-card-actions>
-                    <button mat-button>LIKE</button>
-                    <button mat-button>SHARE</button>
+                    <!-- <button mat-button>LIKE</button>
+                    <button mat-button>SHARE</button> -->
                 </mat-card-actions>
             </mat-card>
         </div>
@@ -193,8 +301,8 @@
                     </p>
                 </mat-card-content>
                 <mat-card-actions>
-                    <button mat-button>LIKE</button>
-                    <button mat-button>SHARE</button>
+                    <!-- <button mat-button>LIKE</button>
+                    <button mat-button>SHARE</button> -->
                 </mat-card-actions>
             </mat-card>
         </div>
@@ -223,8 +331,8 @@
                     </p>
                 </mat-card-content>
                 <mat-card-actions>
-                    <button mat-button>LIKE</button>
-                    <button mat-button>SHARE</button>
+                    <!-- <button mat-button>LIKE</button>
+                    <button mat-button>SHARE</button> -->
                 </mat-card-actions>
             </mat-card>
         </div>
@@ -253,8 +361,8 @@
                     </p>
                 </mat-card-content>
                 <mat-card-actions>
-                    <button mat-button>LIKE</button>
-                    <button mat-button>SHARE</button>
+                    <!-- <button mat-button>LIKE</button>
+                    <button mat-button>SHARE</button> -->
                 </mat-card-actions>
             </mat-card>
         </div>
